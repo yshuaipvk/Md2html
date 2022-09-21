@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- 网站主语言 -->
+<html lang="zh-cn">
+
+<head>
+<meta charset="utf-8">
+<title>{% block title %}{% endblock %}</title>
+
+<link rel="stylesheet" href="./static/usedefine/style.css">
+
+</head>
+
+<body>
+
+    {% include 'header.html' %}
+    {% block content %}{% endblock content %}
+    {% include 'footer.html' %}
+
+</body>
+
+</html>

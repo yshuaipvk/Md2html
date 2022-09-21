@@ -36,4 +36,6 @@ s="""|**name**|**age**|
 |tim| 16|
 |tom| 17|
 """
-print(markdown.markdown(s,extensions=['markdown.extensions.toc','markdown.extensions.fenced_code','markdown.extensions.tables',BootStrapExtension()]))
+print(markdown.markdown(s,extensions=['markdown.extensions.toc',
+                                        'markdown.extensions.fenced_code',
+                                        'markdown.extensions.tables',BootStrapExtension()]))
